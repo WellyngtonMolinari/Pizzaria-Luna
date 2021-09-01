@@ -451,7 +451,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.472); /* Cor de fundo primeira pag */
+  background: rgba(0, 0, 0, 0.5); /* Cor de fundo primeira pag */
   position: absolute;
   bottom: 0;
   top: 0;
@@ -518,7 +518,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .play-btn { /* CONFIGURAÇOES DO CIRCULO DO BOTAO */
   width: 200px;
   height: 200px;
-  background: radial-gradient(#ff0000 50%, rgba(255, 255, 255, 0.4) 52%);
+  background: radial-gradient(#cda45e 50%, rgba(202, 160, 81, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -557,14 +557,14 @@ h1, h2, h3, h4, h5, h6 {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 10px solid rgb(255, 200, 200);
+  border: 10px solid #f1cf94;
   top: 20%;
   left: 20%;
   background: rgba(198, 16, 0, 0);
 }
 
 #hero .play-btn:hover::after {
-  border-left: 15px solid #ff0000;
+  border-left: 15px solid #f3c77b;
   transform: scale(20);
 }
 
